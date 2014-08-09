@@ -1,0 +1,4 @@
+CFBundleName = "Office 2008 save .doc";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "Office 2008 save .doc version 1.0 Copyright 2008 Rusty Myers";
+NSHumanReadableCopyright = "Copyright 2008 Rusty Myers.";

@@ -1,0 +1,11 @@
+#!/bin/bash
+##Add Bonjour to screen sharing application
+defaults write com.apple.ScreenSharing ShowBonjourBrowser_Debug 1
+
+##Add functionality to 10.5 Screen Sharing app
+defaults write com.apple.ScreenSharing \
+'NSToolbar Configuration ControlToolbar' -dict-add 'TB Item Identifiers' \
+'(Scale,Control,Share,Curtain,Capture,FullScreen,GetClipboard,SendClipboard,Quality)'
+
+##link screen sharing to applications folder
+ln -s /System/Library/CoreServices/Screen\ Sharing.app/ /Applications/Screen\ Sharing.app

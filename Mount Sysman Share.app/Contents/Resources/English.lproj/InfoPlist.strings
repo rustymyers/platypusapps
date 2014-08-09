@@ -1,0 +1,4 @@
+CFBundleName = "Open Sysman Share";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "Open Sysman Share version 1.0 Copyright 2010 rzm102";
+NSHumanReadableCopyright = "Copyright 2010 rzm102.";

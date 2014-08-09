@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# get full path to our app
+app_dir="$1"
+echo "Setting of app_dir" $app_dir
+
+echo ""
+if [ -d /Library/Scripts ]
+then echo "folder exists"
+else
+echo "Making Folder"
+mkdir /Library/Scripts
+fi
+echo ""
+echo "starting copy"
+cp $app_dir/Contents/Resources/BigHonkingText /Library/Scripts/
+echo "end copy"
+
+echo ""
+echo "List folder contents of /Library/Scripts"
+ls /Library/Scripts/

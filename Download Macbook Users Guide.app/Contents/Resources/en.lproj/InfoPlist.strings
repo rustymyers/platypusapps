@@ -1,0 +1,4 @@
+CFBundleName = "Download Macbook Users Guide";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "Download Macbook Users Guide version 1.0 Copyright 2008 Rusty Myers";
+NSHumanReadableCopyright = "Copyright 2008 Rusty Myers.";

@@ -1,0 +1,4 @@
+CFBundleName = "Screen Sharing upgrade";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "Screen Sharing upgrade version 1.0 Copyright 2008 user";
+NSHumanReadableCopyright = "Copyright 2008 user.";

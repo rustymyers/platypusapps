@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ~/Desktop
+curl http://comp.ieu.edu.tr/bimeko/web/MacBook.pdf > Macbook.pdf

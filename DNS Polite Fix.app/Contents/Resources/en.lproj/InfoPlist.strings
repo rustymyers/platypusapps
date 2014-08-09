@@ -1,0 +1,4 @@
+CFBundleName = "DNS Polite Fix";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "DNS Polite Fix version 1.0 Copyright 2009 rzm102";
+NSHumanReadableCopyright = "Copyright 2009 rzm102.";

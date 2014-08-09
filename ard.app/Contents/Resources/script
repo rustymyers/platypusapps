@@ -1,0 +1,11 @@
+#!/bin/sh
+
+kick="/System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart"
+launchdaemon="/Library/LaunchDaemons/com."ETC".ARD.kickstart.plist"
+
+### configure ARD
+
+$kick -configure -users "etcadmin" -privs -mask 255
+$kick -activate -configure -access -on -restart -agent
+
+exit 0

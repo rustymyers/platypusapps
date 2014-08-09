@@ -1,0 +1,6 @@
+#!/bin/bash
+
+app_dir="$1"
+
+ipadd=`ifconfig | grep 'broadcast' | awk '{print $2}'`
+.$app_dir/Contents/Resources/BigHonkingText $ipadd

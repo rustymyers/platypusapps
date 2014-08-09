@@ -1,0 +1,7 @@
+#!/bin/bash
+
+app_dir="$1"
+osascript -e "set Volume 10"
+ipadd=`ifconfig | grep 'broadcast' | awk '{print $2}'`
+say $ipadd &
+.$app_dir/Contents/Resources/BigHonkingText $ipadd

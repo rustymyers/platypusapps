@@ -1,0 +1,4 @@
+CFBundleName = "ielm09clean";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "ielm09clean version 1.0 Copyright 2009 Russell Myers";
+NSHumanReadableCopyright = "Copyright 2009 Russell Myers.";

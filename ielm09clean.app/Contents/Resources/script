@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#cleanup for pds09 to 10 machines
+
+ rm -R /Applications/Microsoft\ Office\ 2004
+ rm -R /Applications/Microsoft\ AutoUpdate\ 2004
+ rm -R /Applications/iWork\ \'08
+ rm -R /Applications/Studiocode
+
+ networksetup -setdnsservers Ethernet "Empty"
+ networksetup -setdnsservers Airport "Empty"
+
+ defaults delete /Library/Preferences/com.apple.SoftwareUpdate CatalogURL

@@ -1,0 +1,4 @@
+CFBundleName = "InstallBHT";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "InstallBHT version 1.0 Copyright 2007 Rusty Myers";
+NSHumanReadableCopyright = "Copyright 2007 Rusty Myers.";
